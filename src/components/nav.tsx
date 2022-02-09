@@ -6,13 +6,19 @@ const Nav = () => {
       <nav>
         <ul >
           <li>
-            <a href="https://www.netflix.com/browse" target="_blank" rel="noopener noreferrer noopener">Browse</a>
+            <p>Browse</p>
           </li>
           <li>
-            <a>Top picks</a>
+            <p>Top picks</p>
           </li>
           <li>
-            <a href="https://www.netflix.com" target="_blank" rel="noopener noreferrer noopener">Recent</a>
+            <p >Recent</p>
+          </li>
+          <li>
+            <p >Giftcards</p>
+          </li>
+          <li>
+            <p >Reviews</p>
           </li>
         </ul>
       </nav>

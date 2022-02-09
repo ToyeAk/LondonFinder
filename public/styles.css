@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Mochiy+Pop+P+One&display=swap');
+
+
+
 .LandingPage {
     text-align: center;
     background-image: url("https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
@@ -9,26 +14,139 @@
 
   .landingTitle {
     color: white;
-padding-top: 250px;  
+padding-top: 300px;  
+font-family: 'Mochiy Pop P One', sans-serif;
+font-size:50px
+
+  }
+
+  .card-title {
+    color: white;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-size:25px
 
   }
 
 
+  .card-title1 {
+    color: white;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-size:25px;
+width: 100%;
+
+  }
+
+  .card-description {
+    color: white;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-size:25px;
+display: none;
+
+  }
+
+  .card-title:hover + .card-description {
+    display: block;
+  }
+  .landingTitle2 {
+    color: white;
+padding-top: 300px;  
+font-family: 'Mochiy Pop P One', sans-serif;
+font-size:20px;
+padding-left: 20px;
+
+
+  }
+
+  .perPerson {
+    color: white;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-size:30px
+
+  }
+
+  .perPerson2 {
+    color: white;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-size:30px;
+padding-left:60px
+
+  }
   .landingSubText { 
     color : white;
- 
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-top: -40px;
   }
 
+  
+  .total { 
+    color : white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+  padding-left: 120px;
+
+  }
+
+  .ratings-title{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .rating {
+    font-family: 'Mochiy Pop P One', sans-serif;
+  }
+
+  .card-location { 
+    color : white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+  
+  }
+
+  .landingSubText2 { 
+    color : white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    padding-left: 100px;
+
+  }
+
+  .buttonText { 
+    color : white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+
+
+  }
+  
+  .buttonText2 { 
+    color : white;
+    font-family: 'Mochiy Pop P One', sans-serif;
+font-size: 10px;
+
+
+  }
   .budget {
     color : white;
 
 
   }
 
+  .background {
+
+    background-image: url("https://images.unsplash.com/photo-1513026705753-bc3fffca8bf4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+
+  }
+  .container {
+    padding-top: 100px;
+    padding-left:250px
+  
+  }
+
 .Slider {
 padding-left: 590px;
   }
 
+
+  .Slider2 {
+    padding-left: 60px;
+      }
 
   @import 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
 
@@ -47,6 +165,11 @@ h2, .TitleList .Title {
 	font-weight: 600;
 	line-height: 1.4;
 	margin-bottom: 1em;
+
+  
+}
+
+.innerContainer{
 }
 
 p {
@@ -86,13 +209,15 @@ p {
 	}
 }
 
+
+
 .logo {
 	transform: scale(0.5);
 	transform-origin: 0 0;
 }
 
 .logo svg path {
-	fill: #e50914;
+	fill: #FF5A5F;
 	transition: fill 0.125s ease;
 }
 
@@ -110,7 +235,9 @@ p {
 	height: 37px;
 	align-items: center;
 	padding: 0 10px;
-  margin-left: auto;
+
+  margin-left: 600px;
+
 
 }
 
@@ -126,11 +253,19 @@ p {
 }
 
 .navigation ul li:hover {
-	background: #e50914;
+	background: #FF5A5F;
 	cursor: pointer;
   margin-left: auto;
+  height: 40px;
+  
 
 }
+
+
+ul {
+  list-style: none;
+  margin-left: 1000px;
+ }
 
 .user-profile {
 	margin-left: auto;
@@ -230,6 +365,8 @@ p {
 	width: 100%;
 }
 
+
+
 .button-el {
 	background: transparent;
 	display: flex;
@@ -262,10 +399,82 @@ p {
 .card-img {
 
   height: 400px;
-  width: 700px
+  width: 140%;
+  filter: brightness(0.4);
+
 }
 
-.container {
-  padding-top: 100px;
-  padding-left: 200px;
+.card-img:hover {
+
+  height: 400px;
+  width: 140%;
+  filter: brightness(0.9);
+
+}
+
+.card-img1 {
+
+  height: 100%;
+  width:100%;
+  
+}
+
+
+
+
+
+
+.card-text2 {
+  
+  display: none;
+
+}
+
+
+.card-title:hover + .card-text {
+  display: block;
+  color: red;
+}
+
+
+
+.button {
+  background-color: #FF5A5F;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px
+
+}
+
+.button2 {
+  background-color: #FF5A5F;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  margin-left:120px;
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: url("https://images.unsplash.com/photo-1448906654166-444d494666b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  overflow-x: hidden;
+  padding-top: 20px;
 }

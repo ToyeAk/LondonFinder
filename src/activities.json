@@ -58,6 +58,45 @@
         "rating": 4.5,
         "image": "https://images.squarespace-cdn.com/content/v1/5aa255421137a643268fef6b/1587487158945-59YF7J522SQQEXZL1P3H/escape+room+london+13.jpg?format=2500w",
         "price": 17
+      },
+
+      {
+        "id": 7,
+        "url": "https://topgolf.com/uk/locations/",
+        "name": "Top Golf",
+        "location": "Chigwell",
+        "rating": 4.5,
+        "image": "https://letsgowiththechildren.co.uk/wp-content/uploads/2016/12/topgolf-chigwell-1-915px.jpg",
+        "price": 18
+      },
+
+      {
+        "id": 8,
+        "url": "https://www.gravity-uk.com/southside-wandsworth",
+        "name": "Gravity",
+        "location": "Wandsworth",
+        "rating": 5,
+        "image": "https://bdaily.co.uk/images/uploads/ovOuDp4RZATRuTHo9WtdlX5FmvscOMysxk0BjwpN.jpeg?s=5c2008c2be424614aef6bc65ecf9f611",
+        "price": 12
+      },
+      {
+        "id": 9,
+        "url": "https://www.everymancinema.com/venues-list",
+        "name": "Everyman Cinema",
+        "location": "Baker street",
+        "rating": 4.5,
+        "image": "https://static.standard.co.uk/s3fs-public/thumbnails/image/2020/06/24/06/everyman.jpg?width=1200",
+        "price": 15
+      },
+
+      {
+        "id": 10,
+        "url": "https://toca.social/",
+        "name": "Tocal Social",
+        "location": "Greenwich",
+        "rating": 4.5,
+        "image": "https://offloadmedia.feverup.com/secretbirmingham.com/wp-content/uploads/2021/11/10051348/TOCA-SOCIAL-3-O2-LONDON-e1636462696175.jpg",
+        "price": 35
       }
 
 ]
